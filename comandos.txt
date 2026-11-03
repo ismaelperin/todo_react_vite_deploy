@@ -1,5 +1,27 @@
 Clonar o repositório:
 https://github.com/matheusbattisti/todo_react_vite_deploy
 
+cd C:\arquivos\todo_react_vite_deploy
+
 npm install
 npm run dev
+
+Feito fork para:
+https://github.com/ismaelperin/todo_react_vite_deploy
+
+
+#gh-pages
+#• O que é: Uma ramificação (branch) específica no repositório do Git criada para armazenar apenas os arquivos estáticos prontos para irem ao ar (como a pasta de build ou o HTML/CSS/JS final).
+#• Para que serve: Ela isola o código-fonte da aplicação dos arquivos que o servidor do GitHub precisa ler para exibir o site público.
+
+npm i gh-pages --save-dev
+
+package.json
+	"homepage": "https://ismaelperin.github.io/todo_react_vite_deploy",
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d dist"
+	
+	
+vite.config.js
+  base: "/todo_react_vite_deploy",
+  
