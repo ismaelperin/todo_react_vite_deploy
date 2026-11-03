@@ -1,0 +1,5 @@
+Clonar o repositório:
+https://github.com/matheusbattisti/todo_react_vite_deploy
+
+npm install
+npm run dev
