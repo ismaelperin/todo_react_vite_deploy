@@ -29,4 +29,15 @@ RODAR para enviar ao github:
 npm run deploy  
 
 Configuração remota:
-https://github.com/settings/pages
+https://github.com/ismaelperin/todo_react_vite_deploy/settings/pages
+
+Site publicado:
+https://ismaelperin.github.io/todo_react_vite_deploy/
+
+Publicar na Vercel:
+https://vercel.com/new?teamSlug=ismael-perin
+
+#npm i -g vercel
+#vercel
+
+https://todo-react-vite-deploy-6xtagnuk3-ismael-perin.vercel.app
