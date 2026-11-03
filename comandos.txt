@@ -24,4 +24,9 @@ package.json
 	
 vite.config.js
   base: "/todo_react_vite_deploy",
-  
+
+RODAR para enviar ao github:
+npm run deploy  
+
+Configuração remota:
+https://github.com/settings/pages
